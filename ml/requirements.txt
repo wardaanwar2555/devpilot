@@ -1,0 +1,5 @@
+scikit-learn>=1.4
+joblib>=1.3
+pandas>=2.0
+# optional, for the embedding comparison in evaluate.py:
+# sentence-transformers>=2.7

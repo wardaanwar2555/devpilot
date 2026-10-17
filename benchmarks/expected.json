@@ -1,0 +1,13 @@
+{
+  "known_bugs": [
+    {"path": "bugs_mutable_default.py", "line": 1, "rule_id": "devpilot.mutable-default"},
+    {"path": "bugs_bare_except.py", "line": 4, "rule_id": "devpilot.bare-except"},
+    {"path": "bugs_silent_except.py", "line": 4, "rule_id": "devpilot.silent-except"},
+    {"path": "bugs_undefined_name.py", "line": 5, "rule_id": "F821"},
+    {"path": "bugs_syntax.py", "line": 1, "rule_id": "devpilot.syntax-error"},
+    {"path": "bugs_security.py", "line": 5, "rule_id": "B602"},
+    {"path": "bugs_none_compare.py", "line": 2, "rule_id": "E711"}
+  ],
+  "clean_files": ["clean_math.py", "clean_text.py"],
+  "note": "Hand-written fixtures: a smoke benchmark for regressions, not an estimate of real-world accuracy."
+}

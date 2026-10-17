@@ -1,0 +1,16 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+httpx>=0.27
+python-dotenv>=1.0
+pydantic>=2.6
+sqlalchemy>=2.0
+ruff>=0.5
+bandit>=1.7
+langgraph>=0.2
+pytest>=8.0
+pytest-asyncio>=0.23
+# Optional: PostgreSQL driver (set DATABASE_URL=postgresql+psycopg://...)
+# psycopg[binary]>=3.1
+# Optional: use the trained severity model in ranking
+# joblib>=1.3
+# scikit-learn>=1.4

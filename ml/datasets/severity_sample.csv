@@ -1,0 +1,91 @@
+text,severity,repo
+comparison with None uses equality found by static analysis,medium,beta
+line too long and inconsistent naming found by static analysis,low,delta
+crash: division by zero when list is empty,high,alpha
+retry loop has no backoff or limit,medium,gamma
+pickle.loads on untrusted data enables remote code execution in utils module,high,alpha
+resource not released when exception is raised found by static analysis,medium,gamma
+exception swallowed and execution continues in bad state,medium,delta
+temporary file created insecurely in utils module,medium,alpha
+missing authentication check on delete endpoint in utils module,high,beta
+missing docstring on helper found by static analysis,low,delta
+unsafe yaml.load allows arbitrary object construction,high,alpha
+unused import in module in utils module,low,delta
+retry loop has no backoff or limit found by static analysis,medium,alpha
+local variable shadows builtin name found by static analysis,low,gamma
+undefined name raises NameError at runtime in utils module,high,alpha
+SQL injection via string formatting in query found by static analysis,high,delta
+redefinition of unused function name found by static analysis,low,delta
+unused variable assigned and never read,low,beta
+missing docstring on helper in utils module,low,alpha
+FIXME marker in docstring,low,gamma
+trailing whitespace and style inconsistency in utils module,low,beta
+resource not released when exception is raised in utils module,medium,beta
+local variable shadows builtin name in utils module,low,delta
+missing authentication check on delete endpoint,high,delta
+TODO comment left in function in utils module,low,alpha
+redefinition of unused function name in utils module,low,gamma
+f-string without placeholders,low,delta
+mutable default argument shares state between calls,medium,beta
+shell=True with user input allows command injection found by static analysis,high,alpha
+undefined name raises NameError at runtime found by static analysis,high,beta
+local variable shadows builtin name,low,alpha
+shell=True with user input allows command injection in utils module,high,alpha
+undefined name raises NameError at runtime,high,delta
+unused import in module,low,gamma
+unused variable assigned and never read in utils module,low,delta
+bare except hides unexpected errors,medium,gamma
+pickle.loads on untrusted data enables remote code execution,high,gamma
+file opened without closing leaks handle found by static analysis,medium,beta
+comparison with None uses equality in utils module,medium,beta
+random module used for token generation in utils module,medium,delta
+crash: division by zero when list is empty in utils module,high,beta
+line too long and inconsistent naming,low,alpha
+TODO comment left in function found by static analysis,low,gamma
+shell=True with user input allows command injection,high,alpha
+exception swallowed and execution continues in bad state in utils module,medium,delta
+random module used for token generation found by static analysis,medium,gamma
+assert used for input validation in utils module,medium,gamma
+bare except hides unexpected errors found by static analysis,medium,alpha
+exception swallowed and execution continues in bad state found by static analysis,medium,gamma
+pickle.loads on untrusted data enables remote code execution found by static analysis,high,beta
+eval on request parameter found by static analysis,high,alpha
+file opened without closing leaks handle,medium,alpha
+random module used for token generation,medium,delta
+TLS certificate verification disabled in requests call found by static analysis,high,beta
+mutable default argument shares state between calls in utils module,medium,gamma
+crash: division by zero when list is empty found by static analysis,high,gamma
+hardcoded admin password in source,high,alpha
+SQL injection via string formatting in query,high,gamma
+eval on request parameter,high,alpha
+trailing whitespace and style inconsistency found by static analysis,low,gamma
+hardcoded admin password in source found by static analysis,high,delta
+file opened without closing leaks handle in utils module,medium,alpha
+unused import in module found by static analysis,low,alpha
+unused variable assigned and never read found by static analysis,low,delta
+SQL injection via string formatting in query in utils module,high,beta
+redefinition of unused function name,low,gamma
+f-string without placeholders found by static analysis,low,alpha
+line too long and inconsistent naming in utils module,low,gamma
+TLS certificate verification disabled in requests call in utils module,high,alpha
+missing docstring on helper,low,beta
+eval on request parameter in utils module,high,beta
+missing authentication check on delete endpoint found by static analysis,high,alpha
+temporary file created insecurely,medium,beta
+comparison with None uses equality,medium,gamma
+assert used for input validation found by static analysis,medium,delta
+FIXME marker in docstring in utils module,low,delta
+FIXME marker in docstring found by static analysis,low,gamma
+retry loop has no backoff or limit in utils module,medium,alpha
+unsafe yaml.load allows arbitrary object construction found by static analysis,high,alpha
+mutable default argument shares state between calls found by static analysis,medium,alpha
+f-string without placeholders in utils module,low,alpha
+assert used for input validation,medium,delta
+resource not released when exception is raised,medium,delta
+TLS certificate verification disabled in requests call,high,delta
+hardcoded admin password in source in utils module,high,alpha
+TODO comment left in function,low,alpha
+trailing whitespace and style inconsistency,low,alpha
+temporary file created insecurely found by static analysis,medium,gamma
+bare except hides unexpected errors in utils module,medium,beta
+unsafe yaml.load allows arbitrary object construction in utils module,high,delta

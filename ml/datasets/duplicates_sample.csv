@@ -1,0 +1,16 @@
+id,text,group
+i11,Typo in README installation section,
+i8,Timezone offset wrong for daylight saving dates,g4
+i3,Login fails with unicode passwords,g2
+i0,App crashes on startup when config file is missing,g1
+i10,Add dark mode to settings page,
+i9,DST dates shown with incorrect UTC offset,g4
+i6,Large csv import leaks memory until the process is killed,g3
+i14,Documentation for plugin API is outdated,
+i13,Rename module for consistency,
+i5,Memory usage grows when processing large CSV files,g3
+i12,Support Python 3.13 in CI matrix,
+i2,FileNotFoundError at launch without config.yaml,g1
+i1,Startup crash if the configuration file does not exist,g1
+i4,Cannot sign in when password contains non-ASCII characters,g2
+i7,OOM while parsing big CSV,g3
